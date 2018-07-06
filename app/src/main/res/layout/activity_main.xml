@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Are You Smarter than a Synth!"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:padding = "8dp"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "I devised this test for 4 IT related questions. This particular test is for Wireless technologies. Good Luck!"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:padding="4dp"
+        android:layout_below="@id/title"
+        android:id="@+id/intro"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press ME!"
+        android:layout_below="@id/intro"
+        android:onClick="page2"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/page"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</RelativeLayout>
