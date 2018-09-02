@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/wirelessPage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
@@ -23,7 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="The Wireless Gauntlet"
+                android:text="@string/Title"
                 android:textColor="#000"
                 android:textSize="36sp" />
 
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2. Tell me now, which of these 3 wireless technologies can pass through walls? (Multiple Choice)"
+                android:text= "@string/wifiAndWalls"
                 android:padding="8dp"/>
             <CheckBox
                 android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3. Which of these Bluetooth Classes are most commonly used in Cellular Devices? Class 1, Class 2, or Class 3?"
+                android:text="@string/Bluetooth"
                 android:padding="8dp"/>
             <EditText
                 android:layout_width="match_parent"
@@ -90,7 +90,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4. Which of these wireless radio technologies is the fastest?"/>
+                android:text=""/>
 
             <RadioGroup
                 android:layout_width="wrap_content"

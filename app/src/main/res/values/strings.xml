@@ -3,4 +3,8 @@
     <string name="pageNumber">1</string>
     <string name="Wifi">1. Wifi is one of the most, if not THE most, popular wireless access medium around. Currently, there are two standard bandwidths
     at which they operate: 2.4GHz and 5GHZ. Of these two, which has shorter range? </string>
+    <string name="Title">The Wireless Gauntlet</string>
+    <string name="wifiAndWalls">2. Tell me now, which of these 3 wireless technologies can pass through walls? (Multiple Choice)</string>
+    <string name="Bluetooth">3. Which of these Bluetooth Classes are most commonly used in Cellular Devices? Class 1, Class 2, or Class 3?</string>
+    <string name="wifiAndSpeed">4. Which of these wireless radio technologies is the fastest?</string>
 </resources>
